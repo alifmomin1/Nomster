@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
 @import "bootstrap";
 .booyah-box{
   -webkit-font-smoothing: antialiased;
@@ -43,3 +42,11 @@ body {
   background: image_url('crossed_stripes.png');
   box-shadow: 8px 8px 5px #58acd9;
 }
+
+.navbar-inverse .navbar-brand {
+  color: #58acd9;
+  font-family: 'dayposterblackregular';
+  font-size:26px;
+  font-weight:bold;
+}
+
