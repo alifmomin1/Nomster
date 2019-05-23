@@ -18,7 +18,7 @@
 .booyah-box{
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(199, 154, 87, 0.4);
-  background: #a4bbb5;
+  background: #91d1cd;
   color: white;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -31,4 +31,15 @@
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
+}
+
+body {
+  background: image_url('what-the-hex');
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+
+}
+
+.navbar {
+  background: image_url('crossed_stripes.png');
+  box-shadow: 8px 8px 5px #58acd9;
 }
