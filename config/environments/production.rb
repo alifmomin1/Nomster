@@ -9,7 +9,7 @@ Rails.application.configure do
     domain: 'heroku.com',
     enable_starttls_auto: true
   }
-    
+   config.action_mailer.default_url_options = { host: 'YOUR_WEBSITE_URL' } 
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
